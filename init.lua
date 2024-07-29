@@ -547,6 +547,10 @@ require('lazy').setup({
     end,
   },
 
+  {
+    'sindrets/diffview.nvim',
+  },
+
   { -- Autoformat
     'stevearc/conform.nvim',
     lazy = false,
@@ -792,6 +796,7 @@ require('lazy').setup({
 
   -- NOTE: Next step on your Neovim journey: Add/Configure additional plugins for Kickstart
   {
+    'liuchengxu/vista.vim',
     'romgrk/barbar.nvim',
     dependencies = {
       'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
